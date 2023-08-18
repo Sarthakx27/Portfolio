@@ -9,13 +9,19 @@ body {
     width: 100vw;
     height: 100vw;
     overflow: hidden;
-    font-family: "Greycliff CF";
+    font-family: 'Titillium Web', sans-serif;
 }
 
 nav{
     position: fixed;
     width: 100%;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.navright{
+    margin-right: 20px;
+    width: 20%;
     display: flex;
     justify-content: space-between;
 }
@@ -68,15 +74,18 @@ img{
     clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
-.col{
-    width: 50%;
+.col {
+    width: 100%;
+    display: flex;
     padding: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
 h2{
     margin: 0;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    font-size: 60px;
+    font-size: 26px;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1;
